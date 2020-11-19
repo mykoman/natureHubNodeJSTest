@@ -4,7 +4,11 @@ const { v4: uuidv4 } = require('uuid');
 const User = require('../../Models/User')
 
 
-//route
+/**
+ * @route  GET /
+ * @description creates/update a user based on existence of cookies
+ * @returns user model json
+ */
 router.get('/', async (req, res) =>{
     //retrieve all cookies
     const storedCookies = parseCookies(req)
