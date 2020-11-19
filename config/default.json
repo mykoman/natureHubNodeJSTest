@@ -1,0 +1,3 @@
+{
+    "mongoURI" : "mongodb+srv://myDbUser:DataBas3Pwd@cluster0.raiy3.mongodb.net/natureHubAnonymousTest?retryWrites=true&w=majority"
+}
