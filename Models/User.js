@@ -11,7 +11,7 @@ const UserSchema = new mongoose.Schema({
         required: true,
     },
 
-    visit :{
+    visits :{
         type: Number,
         default: 1
     },
